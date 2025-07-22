@@ -3,6 +3,11 @@
 **findit.sh** is a Bash script that uses Spice Labs open source tools to fingerprint and identify. It outputs all locations and containment relationships for files whose content matches the given reference.
 
 ---
+## Support
+
+This is a demonstration script to leverage the use of Spice Labs other open source projects.  No formal support is provided. 
+
+---
 
 ## Requirements
 
@@ -16,7 +21,7 @@
 
 ## Usage
 
-`./findit.sh --scan PATH --compare FILE --workdir PATH [--tag TAG] [--help]`
+`./findit.sh --scan PATH --compare FILE --workdir PATH [--help]`
 
 
 ### Options

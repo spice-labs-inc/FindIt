@@ -245,9 +245,3 @@ run_bigtent
 do_curl
 cleanup
 print_results
-
-
-#jq -r '.[] | select(all(.connections[]; .[0] != "contained:up")) | .body.file_names[]' second.txt
-#jq -r '.[] | .connections[] | select(.[0] == "contained:up") | .[1]' second.txt
-#md5:cb9f923529bca2727c39bef4d5313767
-#curl -s http://localhost:3000/omnibor/aa/md5:cb9f923529bca2727c39bef4d5313767 | jq -r '(.connections? // [])[] | select(.[0] == "contained:up") | .[1]'
